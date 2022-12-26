@@ -1,0 +1,102 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    display: block;
+}
+
+/* baştaki etiketler */
+
+.navbar{
+    display: block;
+    float: right;
+
+}
+.linkler li{
+    display: inline-flex;
+    position: relative;
+    right: 10px;
+    margin: 10px;
+}
+.linkler li a{
+    color: darkgray;
+}
+#btn a{
+color: #fff;
+background-color: rgb(0, 170, 220);
+padding: 5px 10px;
+border-radius: 5px;
+border: 2px solid;
+transition: .6s;
+}
+#btn a:hover{
+    color: rgb(0, 170, 220);
+    background-color: #fff;
+}
+
+/* google resmi ve etrafını ayarlama */
+
+.content{
+    display:block;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+.content img{
+    width: 350px;
+    height: 200px;
+   
+}
+
+.content2 input{
+    width: 550px;
+    height: 30px;
+    display: flex;
+   border-radius: 20px;
+   border-width: 1px;
+   position: absolute;
+    left: -90px;
+}
+
+.content2 img{
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    right: -108px;
+    top: 208px;
+}
+
+/* footer */
+
+.footer1{
+    display: block;
+    background-color: darkgray;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    opacity: 0.5;
+}
+.footer{
+    display:flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+.ul li{
+    display:inline-block;
+    padding: 15px;
+    color: black;
+   
+}
+.ul li a{
+    color: black;
+    z-index: 5;
+}
+.ul li a:hover{
+    cursor: pointer;
+    color: #fff;
+}
